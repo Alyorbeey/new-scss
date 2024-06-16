@@ -1,0 +1,92 @@
+.site-footer {
+    width: 1440px;
+    margin: 0 auto;
+    background-image: url("../images/shapes.svg");
+    background-repeat: no-repeat;
+    .container {
+        margin-top: 61px;
+        padding: 84px 130px;
+    }
+
+    &__first {
+        margin-right: 72px;
+    }
+
+    &__second {
+        margin-right: 189px;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        list-style: none;
+    }
+
+    &__link {
+        font-weight: 400;
+        font-size: 18px;
+        text-decoration: none;
+        color: rgba(29, 29, 29, 0.7);
+    }
+
+    &__wrapper {
+        display: flex;
+        column-gap: 24px;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 31px;
+    }
+
+    &__phone-desc {
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(29, 29, 29, 0.7);
+        margin-bottom: 16px;
+    }
+
+    &__icon-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45px;
+        height: 48px;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px 0 rgba(29, 29, 29, 0.15);
+        background-color: white;
+    }
+
+    &__icon-wrapper i {
+        font-size: 23px;
+        color: black;
+    }
+
+    &__desc {
+        width: 320px;
+        font-weight: 400;
+        font-size: 20px;
+        color: rgba(29, 29, 29, 0.7);
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+
+    &__cont-wrapper {
+        display: flex;
+        margin-bottom: 91px;
+    }
+
+    &__desc2 {
+        font-weight: 400;
+        font-size: 16px;
+        color: black;
+        text-align: center;
+        margin-top: 46px;
+    }
+
+    &__hr-wrapper {
+        width: 1180px;
+    }
+}

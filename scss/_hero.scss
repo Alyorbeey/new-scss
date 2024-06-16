@@ -1,0 +1,42 @@
+.site-main {
+    &__hero{
+        .container {
+            display: flex;
+            align-items: center;
+            column-gap: 200px;
+            background-image: url("../images/shapes.svg");
+        }
+    }
+
+&__title {
+    margin-bottom: 21px;
+    width: 480px;
+    font-weight: 600;
+    font-size: 48px;
+    color: black;
+}
+
+&__span {
+    color: #ffcb45;
+}
+
+&__desc {
+    margin-bottom: 23px;
+    width: 310px;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(29, 29, 29, 0.7);
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 14px;
+    padding: 12px 24px;
+    border-radius: 50px;
+    border: 2px solid #ffcb45;
+    background-color: #ffcb45;
+}
+
+&--btn2 {
+    float: left;
+}}

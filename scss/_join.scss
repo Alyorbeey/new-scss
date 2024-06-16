@@ -1,0 +1,31 @@
+.site-main {
+    &__join{
+        .container {
+            border-radius: 10px;
+            padding: 92px 328px;
+            background-image: url("../images/bgveg.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+&__title6 {
+    width: 434px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+}
+
+.btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 12px 24px;
+    border-radius: 50px;
+    border: 2px solid #ffcb45;
+    background-color: #ffcb45;
+}}

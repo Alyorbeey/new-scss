@@ -1,0 +1,63 @@
+.site-main {
+    &__howit{
+        .container {
+            padding: 61px 0px;
+        }
+    }
+
+
+&__title2 {
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    color: #ffcb45;
+    margin-bottom: 7px;
+}
+
+&__title3 {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: black;
+    margin-bottom: 26px;
+}
+
+&__desc2 {
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    width: 590px;
+    text-align: center;
+    
+    color: rgba(29, 29, 29, 0.7);
+    
+}
+
+&__list {
+    display: flex;
+    justify-content: center;
+    column-gap: 156px;
+    list-style: none;
+}
+
+&__item {
+    margin-top: 32px;
+    width: 230px;
+    text-align: center;
+}
+&__image{
+    width: 180px;
+    height: 180px;
+}
+&__title4 {
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+&__desc3 {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(29, 29, 29, 0.7);
+}}
