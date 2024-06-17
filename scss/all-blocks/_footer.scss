@@ -7,7 +7,14 @@
         margin-top: 61px;
         padding: 84px 130px;
     }
-
+    &__logo{
+        width: 167px;
+        height: 47px;
+    }
+    &__image{
+        width: 167px;
+        height: 47px; 
+    }
     &__first {
         margin-right: 72px;
     }
@@ -20,13 +27,16 @@
         display: flex;
         flex-direction: column;
         row-gap: 16px;
+        width: 121px;
         list-style: none;
     }
 
     &__link {
+        width: 110px;
         font-weight: 400;
         font-size: 18px;
         text-decoration: none;
+        margin-left: -36px;
         color: rgba(29, 29, 29, 0.7);
     }
 
@@ -62,6 +72,9 @@
     &__icon-wrapper i {
         font-size: 23px;
         color: black;
+    }
+    &__icon-wrapper:active{
+        background-color: $primary;
     }
 
     &__desc {

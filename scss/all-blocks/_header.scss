@@ -17,12 +17,13 @@
 
     &__list {
         display: flex;
-        list-style: none;
         column-gap: 37px;
+        list-style: none;
     }
 
     &__item {
         height: 38px;
+        padding: 8px 0;
     }
 
     &__link {
@@ -30,7 +31,13 @@
         font-size: 22px;
         height: 28px;
         text-decoration: none;
+        color: $text-light;
+    }
+    &__link:active{
         color: black;
+    }
+    &__item:active{
+        border-bottom: 3px solid $primary;
     }
 
     &__icon-wrapper {

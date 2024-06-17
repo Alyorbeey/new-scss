@@ -17,12 +17,12 @@
 }
 
 &__span {
-    color: #ffcb45;
+    color: var(--primary);
 }
 
 &__desc {
     margin-bottom: 23px;
-    width: 310px;
+    width: 370px;
     font-weight: 400;
     font-size: 18px;
     color: rgba(29, 29, 29, 0.7);
